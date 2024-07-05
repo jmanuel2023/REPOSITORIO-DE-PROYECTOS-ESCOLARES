@@ -1,0 +1,21 @@
+Aplicación web tipo FAQ multimedia: Es una aplicación web para preguntas y respuestas frecuentes, 
+desarrollada con el framework Spring Boot para el backend utilizando Java, y React con ECMAScript 6 
+para el frontend.
+
+Huellas Perdidas: Es una aplicación web educativa diseñada para el conocimiento de animales 
+extintos, endémicos o en peligro de extinción. El backend está desarrollado en PHP, mientras que 
+el frontend se implementó con CSS, HTML y JavaScript.
+
+Memorama en Python: Consiste en dos programas, uno cliente y otro servidor (donde se encuentran las 
+respuestas), que simulan un juego de memorama. Ambos programas están desarrollados en Python y 
+utilizan Sockets para la comunicación entre ellos.
+
+LetterWrite: Es una aplicación web educativa destinada a ayudar a los niños de preescolar a 
+identificar letras y números. La aplicación reconoce letras y números y cuenta con un juego 
+didáctico integrado.
+
+Sistema Distribuido: Es un proyecto desarrollado en Java que, a través de una página web, ayuda a 
+identificar libros (50 ejemplares) que tienen mayor coincidencia con una palabra o frase 
+proporcionada por el cliente. La búsqueda se realiza en cuatro servidores en la nube 
+(utilizando GCP), los cuales dividen la cantidad total de libros y ejecutan un algoritmo de 
+búsqueda. Los resultados se combinan y se envían al cliente a través de la página web.  
