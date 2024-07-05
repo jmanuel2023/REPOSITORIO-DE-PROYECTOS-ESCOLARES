@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <link href="../../estilos_menuHP.css"  rel= "stylesheet">
+    </head>
+    <body>
+
+
+        <div id="LOGIN"> 
+            <h1 style="color:aliceblue">HUELLAS PERDIDAS</h1>
+            <h2 style="color:rgb(148, 24, 24)">BUSCAR ANIMALES</h2>
+              <br>
+              <form action="buscaNombre.php" id="formulario" method="post">
+                  <label for="nombre">Nombre:</label>
+                  <input type="text" name="nombre" id="nombre" placeholder="Nombre:">
+                  <br>
+                  <input type="submit" value="BUSCAR" class="btn btn-2">
+                  
+                </form>
+                <form action="buscaCon.php" id="formulario" method="post">
+                    <label for="continente">Continente:</label>
+                          <select name="continente" id="continente">
+                           <option value="America">America</option>
+                              <option value="Europa">Europa</option>
+                              <option value="Asia">Asia</option>
+                              <option value="Oceania">Oceania</option>
+                              <option value="Africa">Africa</option>
+                          </select>
+                  
+                    <br>
+                    <input type="submit" value="BUSCAR" class="btn btn-2">
+                  </form>
+                  <form action="buscaCate.php" id="formulario" method="post">
+                    <label for="categoria">Estado actual:</label>
+                          <select name="categoria" id="categoria">
+                           <option value="En peligro de extincion">Es animal en Peligro de extinción</option>
+                              <option value="Endemico">Es animal Endemico</option>
+                              
+                              <option value="Extinto">Es animal extinto</option>
+                          </select>
+                    <br>
+                    <inpuT type="submit" value="BUSCAR" class="btn btn-2">  
+                  </form>
+                  <br><br>
+                  <a href="MAPA.php"  class="btn btn-1">REGRESAR</a><br>
+                 
+        
+        </div>  
+        
+    </body>
+
+
+</html>

@@ -1,0 +1,48 @@
+.center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+
+
+.fondo{
+  background-image: url("Imagenes/fondo1.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    
+}
+.title{
+  color: rgb(10, 10, 10);
+  text-align: center;
+  top: 75%;
+  left: 75%;
+  right: 75%;
+  font-size: 30px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+}
+.tabla{
+  color: white;
+  text-align:left;
+  font-size: 30px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    width: 50%;
+    height: 300px;
+}
+.boton{
+  font-size:20px;
+  font-family:Arial;
+  font-weight:bold;
+  color:#000;
+  background:#FF0;
+  border:50px;
+  width:400px;
+  height:50px;
+}
+#b_submit { 
+  margin: 20px 20px 20px 20px;    
+} 
+ 

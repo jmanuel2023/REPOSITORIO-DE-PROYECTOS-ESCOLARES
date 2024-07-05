@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<head>
+ <meta charset ="UTF-8">
+ <title>.:Inicio de sesion:.</title>
+ <link rel="stylesheet" href="estilos_menuHP.css">
+ <style>
+  @media ((min-width: 1200px)) {
+            .bd-placeholder-img-lg {
+              font-size: 3.5rem;
+            }
+          }
+        </style>
+</head>
+
+<body>
+    <div id="LOGIN"> 
+        <h1 style="color:aliceblue">Escuela Superior de Computo (ESCOM)</h1>
+        <h2 style="color:rgb(148, 24, 24)">Administrador</h2>
+          <br>
+          <form action="conectarAdmin.php" id="formulario" method="post">
+            <label for="usuario">Usuario:</label>
+       <input type="text" name="usuario" id="usuario"><br>
+       <br>
+       <label for="pass">Ingrese su contraseña:</label>
+       <input type="password" name="pass" id="pass" placeholder="contraseña"><br>
+       <br>
+       <input type="submit" value="Enviar" class="btn btn-2">  
+          </form>
+    
+    </div>      
+</body>
+</htmml>
