@@ -1,0 +1,11 @@
+com/mycompany/app/App.class
+com/mycompany/app/SerializationUtils.class
+com/mycompany/app/Libro.class
+com/mycompany/app/Aggregator.class
+com/mycompany/app/FrontendSearchRequest.class
+com/mycompany/app/ServicioUno.class
+networking/WebClient.class
+com/mycompany/app/ServicioTres.class
+com/mycompany/app/FrontendSearchResponse.class
+com/mycompany/app/WebServer.class
+com/mycompany/app/ServicioDos.class

@@ -1,0 +1,81 @@
+body {
+  /*background: #fcfcfc;*/
+  padding: 10px;
+  font-family: Helvetica;
+  margin: 0;
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+
+#contenedor{
+  display: flex;
+  justify-content: center;
+}
+
+#busqueda, #resultados {
+  background: #2022ac;
+  border-radius: 4px;
+  padding: 60px;
+  font-size: 25px;
+  text-align: center;
+  transition: all 0.2s;
+}
+
+
+input {
+  border-radius: 5px; /* Un valor pequeño para esquinas ligeramente redondeadas */
+  padding: 10px; /* Ajusta el valor del relleno según sea necesario */
+  font-size: 16px; /* Ajusta el tamaño de la fuente según sea necesario */
+  width: 100px; /* Ajusta el ancho según sea necesario */
+  box-sizing: border-box;
+  border: 1px solid #ccc; /* Agrega un borde para mayor definición */
+  outline: none; /* Elimina el contorno predeterminado en algunos navegadores */    
+}
+
+
+#search_text {
+  width: 300px;
+}
+
+button {
+  background: #0084ff;
+  border: none;
+  border-radius: 5px;
+  padding: 8px 14px;
+  font-size: 15px;
+  color: #fff;
+}
+
+#results {
+  display: none;
+  white-space: pre-wrap;
+}
+
+#results table {
+  margin-left:auto;
+  margin-right:auto;
+}
+
+#myChartContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.canvas-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px; /* Ajusta según sea necesario */
+}
+
+canvas {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  max-width: 400px; /* Ajusta según sea necesario */
+  max-height: 300px; /* Ajusta según sea necesario */
+  width: 100%; /* Para asegurar que el canvas se ajuste al contenedor */
+  height: auto; /* Para mantener la proporción de aspecto */
+}
+
